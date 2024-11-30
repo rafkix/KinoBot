@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "moviebot"
+version = "1.0.0"
+description = "**movieBot** — bu Telegram bot bo‘lib, filmlar va seriallar haqidagi ma’lumotlarni qidirish, ularga baho berish va tavsiyalar olish imkonini beradi. Foydalanuvchilar o‘z sevimli janrlarini kiritib, mos filmlarni topishlari mumkin."
+authors = ["Copyright (c) 2024 Diyorbek"]
+license = "Copyright (c) 2024 Diyorbek"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiogram = "^3.14.0"
+sqlalchemy = "^2.0.36"
+aiosqlite = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
